@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: khadija-project
@@ -7,3 +8,11 @@ services:
     envVars:
       - key: PORT
         value: 10000
+=======
+services:
+  - type: web
+    name: khadija-flask-portfolio
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+>>>>>>> 8ee23484d07ce29cd3a272976b1d0e3b628b461c
